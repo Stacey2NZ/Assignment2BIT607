@@ -1,17 +1,20 @@
 * {
     box-sizing: border-box;
 }
+body {
+  font-family: 'Architects Daughter', Verdana, cursive;
+}
 
   .ui-menu { 
     width: 30%; 
     font-size: 3em;
     font-weight: bold;
     float: left;
+    font-family: 'Architects Daughter', Verdana, cursive;
 }
 #menu {
   list-style: none;
   text-decoration: none;
-  font-family: 'Architects Daughter', Verdana, cursive;
 }
 
 #restaurantImage {
@@ -34,16 +37,16 @@
   max-height: 100%;
 }
 #slideshow {
-  margin:80px auto;
+  margin:50px auto;
   position: relative;
-  width: 29em;
-  height: 20em;
+  width: 33em;
+  height: 25em;
   padding: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 #slideshow > div > img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 95%;
+  max-height: 95%;
   position: absolute;
   top: 10px;
   left: 10px;
@@ -62,5 +65,12 @@
   content: "";
   display: table;
   clear: both;
+}
+#restaurantMenu >  #red {
+  position: absolute;
+  float: left;
+}
+#restaurantMenu > #nonalcoholic {
+  position: relative;
 }
 
