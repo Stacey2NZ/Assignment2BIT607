@@ -37,6 +37,12 @@
       min-width: 75%;
       min-height: 75%;
     }
+    #restaurantMenu {
+      font-size: 3em;
+    }
+    #beveragesSection {
+      font-size: 3em;
+    }
   }
 html {
   font-size: 1vw;
