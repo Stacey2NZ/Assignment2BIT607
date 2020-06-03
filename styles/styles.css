@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+html {
+  font-size: 1vw;
+}
 body {
   font-family: 'Architects Daughter', Verdana, cursive;
 }
@@ -93,26 +96,29 @@ tr, td {
   font-size: 1.25em;
   text-align: left;    
 }
+/* for the calendar on reservations page */
 #tophalf > iframe {
   float: right;
-  margin-right: 300px;
+  margin-right: 25em;
 }
 #reservationForm > h1 {
   text-align: center;
   font-size: 3em;
 }
 #reservationForm > iframe {
-  margin-left: 440px;
+  margin-left: 30em;
 }
 #tophalfcontact > iframe {
-  margin-left: 3em;
+  margin-left: 10em;
   margin-bottom: 2em;
 }
 #contactInfo {
   float: right;
   position: relative; 
-  margin-right: 10em;
-}
-#tophalfcontact > contactForm {
-  margin-left: 30em;
+  margin-right: 5em;
+  font-size: 1.5em;
+  width: 25em;
+  height: 24em;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
