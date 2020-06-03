@@ -161,11 +161,6 @@ tr, td {
  margin-left: 10em;
 }
 #contactInfo {
-  float: left;
-  position: relative;
-  margin-left: 10em;
-  margin-bottom: 5em;
-  margin-top: 20em;
   font-size: 1.5em;
   width: 25em;
   height: 24em;
