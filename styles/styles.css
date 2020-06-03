@@ -130,6 +130,7 @@ tr, td {
 #tophalf > iframe {
   float: right;
   margin-right: 25em;
+  margin-top: 5em;
 }
 #reservationForm > h1 {
   text-align: center;
