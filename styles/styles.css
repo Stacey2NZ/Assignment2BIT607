@@ -24,6 +24,10 @@
       max-width: 90%;
       max-height: 90%;
     }
+    #contactInfo {
+      min-width: 75%;
+      min-height: 75%;
+    }
   }
 html {
   font-size: 1vw;
