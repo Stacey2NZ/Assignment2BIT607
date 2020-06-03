@@ -5,7 +5,7 @@ html {
   font-size: 1vw;
 }
 body {
-  font-family: 'Architects Daughter', Verdana, cursive;
+  font-family: 'Architects Daughter', Verdana, cursive, serif;
 }
 
   .ui-menu {
@@ -13,7 +13,7 @@ body {
     font-size: 3em;
     font-weight: bold;
     float: left;
-    font-family: 'Architects Daughter', Verdana, cursive;
+    font-family: 'Architects Daughter', Verdana, cursive, serif;
     list-style: none;
     text-decoration: none;
 }
@@ -21,8 +21,8 @@ body {
 #restaurantImage {
   margin-left: 40em;
   position: relative;
-  width: 33em;
-  height: 22em;
+  width: 34em;
+  height: 23.5em;
   padding: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
@@ -34,9 +34,10 @@ body {
   bottom: 10px;
 }
 #restaurantImage > img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 90%;
+  max-height: 90%;
 }
+/*slideshow on menu page */
 #slideshow {
   margin-left: 40em;
   position: relative;
@@ -88,6 +89,7 @@ body {
   display: table;
   clear: both;
 }
+/*table for menu items */
 table, tr, td {
   border-collapse: collapse;
 }
@@ -105,9 +107,11 @@ tr, td {
   text-align: center;
   font-size: 3em;
 }
+/*reservation form on reservations page */
 #reservationForm > iframe {
   margin-left: 30em;
 }
+/*Google maps contact page */
 #tophalfcontact > iframe {
   margin-left: 10em;
   margin-bottom: 2em;
@@ -124,4 +128,7 @@ tr, td {
 }
 #privacystatement {
   font-size: 1.5em;
+}
+footer {
+  font-size: 2em;
 }
