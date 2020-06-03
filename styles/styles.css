@@ -2,21 +2,29 @@
     box-sizing: border-box;
 }
 @media (max-width: 700px) {
-header > img {
-  max-width: 75%
-}
-}
-@media (max-width: 700px) {
   #restaurantImage > img {
-    max-width: 25%;
-    max-height: 25%;
+    max-width: 30%;
+    max-height: 30%;
   }
-  }
-  @media (max-width: 700px) {
-    .ui-menu {
+  .ui-menu {
     font-size: 5em;
     }
+  header > img {
+      max-width: 75%
     }
+    .iframe {
+      max-width: 60%;
+      max-height: 60%;
+    }
+    #tophalfcontact > iframe {
+      max-width: 60%;
+      max-height: 60%;
+    }
+    #reservationForm > iframe {
+      max-width: 60%;
+      max-height: 60%;
+    }
+  }
 html {
   font-size: 1vw;
 }
