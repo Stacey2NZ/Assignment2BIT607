@@ -137,7 +137,7 @@ tr, td {
 }
 /* for the calendar on reservations page */
 #tophalf > iframe {
-  float: right;
+  align-self: center;
   margin-right: 25em;
   margin-top: 5em;
 }
@@ -147,7 +147,7 @@ tr, td {
 }
 /*reservation form on reservations page */
 #reservationForm > iframe {
-  margin-left: 30em;
+  align-self: center;
 }
 /*Google maps contact page */
 #tophalfcontact > iframe {
