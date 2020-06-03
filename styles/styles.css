@@ -144,7 +144,7 @@ tr, td {
 /* for the calendar on reservations page */
 #tophalf > iframe {
   align-self: center;
-  margin-right: 25em;
+  margin-left: 25em;
   margin-top: 5em;
 }
 #reservationForm > h1 {
