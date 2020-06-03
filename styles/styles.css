@@ -153,14 +153,25 @@ tr, td {
 }
 /*reservation form on reservations page */
 #reservationForm > iframe {
-  align-self: center;
+  float: center;
 }
 /*Google maps contact page */
-#tophalfcontact > iframe {
+#iframeContentContact > iframe {
  float: left;
- margin-left: 10em;
+ margin-left: 5em;
+ margin-top: 22em;
+ box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+/*Google form for contact */
+#iframeContentContact > #contactForm {
+  float: right;
+ margin-right: 5.5em;
+ margin-top: 3em;
 }
 #contactInfo {
+  position: relative;
+  float: right;
+  margin-right: 10em;
   font-size: 1.5em;
   width: 25em;
   height: 24em;
