@@ -13,22 +13,27 @@
       max-width: 75%
     }
     .iframe {
+      align-self: center;
       max-width: 90%;
       max-height: 90%;
     }
     #tophalf > iframe {
+      align-self: center;
       max-width: 90%;
       max-height: 90%;
     }
     #tophalfcontact > iframe {
+      align-self: center;
       max-width: 90%;
       max-height: 90%;
     }
     #reservationForm > iframe {
+      align-self: center;
       max-width: 90%;
       max-height: 90%;
     }
     #contactInfo {
+      align-self: center;
       min-width: 75%;
       min-height: 75%;
     }
