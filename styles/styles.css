@@ -66,11 +66,11 @@ body {
   display: table;
   clear: both;
 }
-#restaurantMenu >  #red {
-  position: absolute;
-  float: left;
+table, tr, td {
+  border-collapse: collapse;
 }
-#restaurantMenu > #nonalcoholic {
-  position: relative;
+tr, td {
+  padding: 5px;
+  font-size: 1.25em;
+  text-align: left;    
 }
-
