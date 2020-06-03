@@ -157,8 +157,8 @@ tr, td {
 }
 /*Google maps contact page */
 #tophalfcontact > iframe {
-  
-  margin-bottom: 2em;
+ float:left;
+ margin-left: 10em;
 }
 #contactInfo {
   float: left;
