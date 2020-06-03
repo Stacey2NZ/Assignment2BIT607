@@ -11,14 +11,12 @@ body {
     font-weight: bold;
     float: left;
     font-family: 'Architects Daughter', Verdana, cursive;
-}
-#menu {
-  list-style: none;
-  text-decoration: none;
+    list-style: none;
+    text-decoration: none;
 }
 
 #restaurantImage {
-  margin: auto;
+  margin-left: 40em;
   position: relative;
   width: 33em;
   height: 22em;
@@ -37,7 +35,7 @@ body {
   max-height: 100%;
 }
 #slideshow {
-  margin:50px auto;
+  margin-left: 40em;
   position: relative;
   width: 33em;
   height: 25em;
@@ -60,6 +58,27 @@ body {
   right: 10px;
   bottom: 10px;
 }
+#restaurantMenu {
+  margin: 80px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+#restaurantMenu > p {
+  font-size: 1.25em;
+}
+#beveragesSection {
+  margin: 80px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+#beveragesSection > drinks {
+  margin: 80px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
 /* Clear floats  */
 #tophalf:after {
   content: "";
@@ -70,7 +89,7 @@ table, tr, td {
   border-collapse: collapse;
 }
 tr, td {
-  padding: 5px;
+  padding: 1.5em;
   font-size: 1.25em;
   text-align: left;    
 }
@@ -84,4 +103,16 @@ tr, td {
 }
 #reservationForm > iframe {
   margin-left: 440px;
+}
+#tophalfcontact > iframe {
+  margin-left: 3em;
+  margin-bottom: 2em;
+}
+#contactInfo {
+  float: right;
+  position: relative; 
+  margin-right: 10em;
+}
+#tophalfcontact > contactForm {
+  margin-left: 30em;
 }
