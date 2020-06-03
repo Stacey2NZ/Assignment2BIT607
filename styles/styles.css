@@ -5,14 +5,18 @@
 header > img {
   max-width: 75%
 }
+}
 @media (max-width: 700px) {
   #restaurantImage > img {
     max-width: 25%;
     max-height: 25%;
   }
   }
-
-}
+  @media (max-width: 700px) {
+    .ui-menu {
+    font-size: 5em;
+    }
+    }
 html {
   font-size: 1vw;
 }
