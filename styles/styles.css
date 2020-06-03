@@ -16,6 +16,10 @@
       max-width: 90%;
       max-height: 90%;
     }
+    #tophalf > iframe {
+      max-width: 90%;
+      max-height: 90%;
+    }
     #tophalfcontact > iframe {
       max-width: 90%;
       max-height: 90%;
