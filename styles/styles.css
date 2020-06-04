@@ -1,10 +1,6 @@
 * {
     box-sizing: border-box;
 }
-@media (max-width: 700px) {
-  html {
-    display: inline;
-  }
   #restaurantImage > img {
     max-width: 30%;
     max-height: 30%;
@@ -40,6 +36,9 @@
       align-self: center;
       min-width: 75%;
       min-height: 75%;
+    }
+    #iframeContentContact > #iframe {
+      max-width: 80%;
     }
     #restaurantMenu {
       font-size: 3em;
