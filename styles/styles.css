@@ -27,8 +27,9 @@
       max-width: 90%;
       max-height: 90%;
     }
+    /*calendar in reservations */
     #reservationForm > iframe {
-      align-self: center;
+      float: right;
       max-width: 90%;
       max-height: 90%;
     }
