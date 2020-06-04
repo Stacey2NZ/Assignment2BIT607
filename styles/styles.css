@@ -22,15 +22,11 @@
       max-height: 90%;
     }
     #tophalfcontact > iframe {
-      align-self: center;
-      max-width: 90%;
-      max-height: 90%;
+     
     }
     /*calendar in reservations */
     #reservationForm > iframe {
-      float: right;
-      max-width: 90%;
-      max-height: 90%;
+
     }
     #contactInfo {
       float: center;
@@ -38,8 +34,7 @@
       min-height: 75%;
     }
     #iframeContentContact > #iframe, #contactForm {
-      max-width: 90%;
-      align-self: center;
+   
     }
     #restaurantMenu {
       font-size: 3em;
@@ -50,7 +45,6 @@
     #privacystatement {
       font-size: 5em;
     }
-  
 html {
   font-size: 1vw;
 }
