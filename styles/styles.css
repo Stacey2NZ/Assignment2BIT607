@@ -39,6 +39,7 @@
     }
     #iframeContentContact > #iframe, #contactForm {
       max-width: 90%;
+      align-self: center;
     }
     #restaurantMenu {
       font-size: 3em;
