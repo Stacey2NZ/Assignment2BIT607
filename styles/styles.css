@@ -33,7 +33,7 @@
       max-height: 90%;
     }
     #contactInfo {
-      align-self: center;
+      float: center;
       min-width: 75%;
       min-height: 75%;
     }
