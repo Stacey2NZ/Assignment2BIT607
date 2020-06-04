@@ -22,11 +22,11 @@
       max-height: 90%;
     }
     #tophalfcontact > iframe {
-     
+     max-width: 80%;
     }
     /*calendar in reservations */
     #reservationForm > iframe {
-
+      max-width: 80%;
     }
     #contactInfo {
       float: center;
