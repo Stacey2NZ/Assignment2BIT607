@@ -33,7 +33,7 @@
       min-width: 75%;
       min-height: 75%;
     }
-    #iframeContentContact > #iframe, #contactForm {
+    #iframeContentContact > iframe, #contactForm {
       max-width: 80%;
     }
     #restaurantMenu {
