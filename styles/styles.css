@@ -26,12 +26,12 @@
     }
     #reservationForm > iframe {
       max-width: 80%;
-      margin-left: 10em;
-      margin-right: 10em;
+      margin-left: 15em;
+      margin-right: 15em;
     }
     #calendar {
-      margin-left: 10em;
-      margin-right: 10em;
+      margin-left: 15em;
+      margin-right: 15em;
     }
     #contactInfo {
       min-width: 75%;
@@ -41,7 +41,7 @@
       max-width: 80%;
     }
     #restaurantMenu {
-      font-size: 3em;
+      font-size: 2em;
     }
     #beveragesSection {
       font-size: 3em;
