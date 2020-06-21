@@ -24,9 +24,14 @@
     #tophalfcontact > iframe {
      max-width: 80%;
     }
-    /*calendar in reservations */
     #reservationForm > iframe {
       max-width: 80%;
+      margin-left: 10em;
+      margin-right: 10em;
+    }
+    #calendar {
+      margin-left: 10em;
+      margin-right: 10em;
     }
     #contactInfo {
       min-width: 75%;
