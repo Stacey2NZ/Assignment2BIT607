@@ -1,1 +1,151 @@
-*{box-sizing: border-box;}#restaurantImage > img{max-width: 30%; max-height: 30%;}.ui-menu{font-size: 5em;}header > img{max-width: 75%}.iframe{align-self: center; max-width: 90%; max-height: 90%;}#tophalf > iframe{align-self: center; max-width: 90%; max-height: 90%;}#tophalfcontact > iframe{max-width: 80%;}/*calendar in reservations */ #reservationForm > iframe{max-width: 80%;}#contactInfo{float: center; min-width: 75%; min-height: 75%;}#iframeContentContact > iframe, #contactForm{max-width: 80%;}#restaurantMenu{font-size: 3em;}#beveragesSection{font-size: 3em;}#privacystatement{font-size: 5em;}html{font-size: 1vw;}body{font-family: 'Architects Daughter', Verdana, cursive, serif;}.ui-menu{width: 30%; font-size: 3em; font-weight: bold; float: left; font-family: 'Architects Daughter', Verdana, cursive, serif; list-style: none; text-decoration: none;}#restaurantImage{margin-left: 40em; position: relative; width: 34em; height: 23.5em; padding: 10px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);}#restaurantImage > div{position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px;}#restaurantImage > img{max-width: 90%; max-height: 90%;}/*slideshow on menu page */#slideshow{margin-left: 40em; position: relative; width: 33em; height: 25em; padding: 10px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);}#slideshow > div > img{max-width: 95%; max-height: 95%; position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px;}#slideshow > div{position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px;}#restaurantMenu{margin: 80px; padding: 10px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); text-align: center;}#restaurantMenu > p{font-size: 1.25em;}#beveragesSection{margin: 80px; padding: 10px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); text-align: center;}#beveragesSection > drinks{margin: 80px; padding: 10px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); text-align: center;}/* Clear floats */#tophalf:after{content: ""; display: table; clear: both;}/*table for menu items */table, tr, td{border-collapse: collapse;}tr, td{padding: 1.5em; font-size: 1.25em; text-align: left;}/* for the calendar on reservations page */#tophalf > iframe{align-self: center; margin-left: 40em; margin-top: 5em;}#reservationForm > h1{text-align: center; font-size: 3em;}/*reservation form on reservations page */#reservationForm > iframe{float: center;}/*Google maps contact page */#iframeContentContact > iframe{float: left; margin-left: 5em; margin-top: 22em; box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);}/*Google form for contact */#iframeContentContact > #contactForm{float: right; margin-right: 5.5em; margin-top: 3em;}#contactInfo{position: relative; float: right; margin-right: 10em; font-size: 1.5em; width: 25em; height: 24em; padding: 10px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);}#privacystatement{font-size: 2em;}footer{font-size: 1.5em;}
+* {
+    box-sizing: border-box;
+}
+  #restaurantImage > img {
+    max-width: 30%;
+    max-height: 30%;
+  }
+  .ui-menu {
+    font-size: 5em;
+    }
+  header > img {
+      max-width: 75%
+    }
+    .iframe {
+      align-self: center;
+      max-width: 90%;
+      max-height: 90%;
+    }
+    #tophalf > iframe {
+      align-self: center;
+      max-width: 90%;
+      max-height: 90%;
+    }
+    #tophalfcontact > iframe {
+     max-width: 80%;
+    }
+    /*calendar in reservations */
+    #reservationForm > iframe {
+      max-width: 80%;
+    }
+    #contactInfo {
+      float: center;
+      min-width: 75%;
+      min-height: 75%;
+    }
+    #iframeContentContact > iframe, #contactForm {
+      max-width: 80%;
+    }
+    #restaurantMenu {
+      font-size: 3em;
+    }
+    #beveragesSection {
+      font-size: 3em;
+    }
+    #privacystatement {
+      font-size: 5em;
+    }
+html {
+  font-size: 1vw;
+}
+body {
+  font-family: 'Architects Daughter', Verdana, cursive, serif;
+}
+
+  .ui-menu {
+    width: 30%;
+    font-size: 3em;
+    font-weight: bold;
+    float: left;
+    font-family: 'Architects Daughter', Verdana, cursive, serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+#restaurantImage {
+  margin-left: 40em;
+  position: relative;
+  width: 34em;
+  height: 23.5em;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+#restaurantImage > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+#restaurantImage > img {
+  max-width: 90%;
+  max-height: 90%;
+}
+/*slideshow on menu page */
+#slideshow {
+  margin-left: 40em;
+  position: relative;
+  width: 33em;
+  height: 25em;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+#slideshow > div > img {
+  max-width: 95%;
+  max-height: 95%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+#restaurantMenu {
+  margin: 80px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+#restaurantMenu > p {
+  font-size: 1em;
+}
+#beveragesSection {
+  margin: 80px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+#beveragesSection > drinks {
+  margin: 80px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+/* Clear floats  */
+#tophalf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*table for menu items */
+table, tr, td {
+  border-collapse: collapse;
+}
+tr, td {
+  padding: 1.5em;
+  font-size: 1.25em;
+  text-align: left;
+}
+
+#privacystatement {
+  font-size: 2em;
+}
+footer {
+  font-size: 1.5em;
+}
