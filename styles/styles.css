@@ -157,4 +157,7 @@ tr, td {
 footer {
   font-size: 1.5em;
 }
-/*testing a new commit*/
+#staffonly {
+  border-style: double;
+  border-color: #1f4773;
+}
