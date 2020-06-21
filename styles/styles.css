@@ -26,11 +26,15 @@
     }
     #reservationForm > iframe {
       max-width: 80%;
-      margin-left: 20em;
+      margin-left: 25em;
       display: inline-block;
     }
+    #reservationForm > h1 {
+      text-align: center;
+    }
     #calendar {
-      margin-left: 15em;
+      max-width: 80%;
+      margin-left: 25em;
       display: inline-block;
     }
     #contactInfo {
