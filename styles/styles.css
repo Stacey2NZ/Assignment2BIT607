@@ -32,10 +32,12 @@
     #calendar {
       margin-left: 15em;
       margin-right: 15em;
+      display: inline-block;
     }
     #contactInfo {
       min-width: 75%;
       min-height: 75%;
+      display: inline-block;
     }
     #iframeContentContact > iframe, #contactForm {
       max-width: 80%;
