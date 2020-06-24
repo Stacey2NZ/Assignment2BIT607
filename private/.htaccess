@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Restricted access. Staff login only"
+AuthUserFile "/private/.htpasswd"
+Require valid-user
+
